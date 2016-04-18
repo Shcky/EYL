@@ -1,0 +1,660 @@
+body {
+      position: relative;
+      font: 400 15px/1.8 Lato, sans-serif, Monospace;
+      color: #777;
+  }
+
+
+h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 2px; 
+    font-size: 20px;
+    color: #111;
+}
+
+/* Remove rounded borders on input fields */
+.form-control {
+    border-radius: 0;
+}
+
+
+
+
+
+
+/*-------Welcome page + navigace-------*/
+
+
+
+.EAGLE-EYE-LOCATORS { width: 100%; font-size: 52px; }
+
+.welcome_page {
+    background-image: url("port.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;    
+    width: 100%;
+    height: 986px;
+}
+       
+ .affix-top{ background: transparent; }
+ .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+      margin-bottom: 2%;
+      padding-bottom: 2%;
+      background: rgba(0, 0, 0,0.8);
+  }
+  
+ .affix .navbar-collapse.in {background: rgba(0, 0, 0,0.8);}
+ 
+  
+  
+
+  .affix ~ .container-fluid {
+     position: relative;
+  }
+  
+
+
+.welcome-text {
+    padding-top: 17%; 
+    color: white;
+}
+
+.navbar {
+    height: 10%;
+    border: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    color: red;
+}
+
+.navbar:hover{background: none repeat scroll 0 0 rgba(0, 0, 0,0.5);}
+
+.navbar-nav li.active a  {
+    color: #fff  !important;
+    background-color: rgba(115, 115, 115, 0.5)!important;
+    border-radius: 15px;
+
+}
+
+#logo {    
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    transition: .1s;
+    padding: 10px 20px;
+
+}
+
+#logo:hover {border: 2px solid white; border-radius: 15px;   }
+
+
+
+#mark { margin-top: 2%; margin-bottom: 2%;  }
+
+.container-fluid {
+    padding-top: 1.5%;
+    padding-left: 0px;  
+    margin: 0px;
+    display: inline-block;    
+}
+
+/*-----Navbar small wraped------*/
+.navbar-inverse .navbar-toggle {
+    border: 2px solid #ffffff;
+    margin-right: 47.3%;
+   
+}   
+   .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color:transparent;
+}
+
+
+/*--------END---------*/
+
+
+/*--------About US---------*/
+
+.ABOUT_US {
+    margin-top: 6%;
+    margin-right: 15%;
+    margin-left: 15%;   
+}
+
+
+.about_title {margin-bottom: 4%; }
+.about_text-first { margin-bottom: 4%; }
+.about_text-second { margin-bottom: 6%;}
+
+.about_text-second  h3 {
+    padding-top: 3%; 
+    margin-bottom: 3%;   
+    border-top: 1px solid #000000;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.about_text-second p { text-align: center;}
+
+/*------Services----*/
+
+.services {
+   margin-top:5%;
+}
+.services_text-second {
+    background-image: url("street.jpg");
+    max-height:  100%;
+    padding-bottom: 1%;
+    color: black;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   opacity: 0.8;
+   }
+
+
+
+.services_text-second h3 {
+    padding-top:2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    }
+.services_text-second p {
+    padding-top:0%;
+    margin-right: 15%;
+    margin-left: 15%;
+    color: black;
+   
+    }
+
+.services-title-h3{color:black; opacity: 1;} 
+.services_text-first { margin-left: 15%; margin-right: 15%;margin-top:5%;}   
+.thumbnail { border: none;}
+.logo-small { color: #003380; font-size: 50px;}
+.blueBackground { background-color: #39F; }
+
+
+/*-------- PRIVACY---------*/
+.PRIVACY {
+      margin-left: 15%;
+      margin-right: 15%;  
+      border-top: 1px solid black;
+      margin-top: 3%;
+      padding-top:3%;
+}
+
+.privacy_title { color: black;}
+
+.pryvacys_text-second {margin-top: 5%;}
+
+
+/*-----REQUEST_A------*/
+
+.REQUEST_A {
+      margin-left: 15%;
+      margin-right: 15%;   
+      margin-top: 5%;
+      min-height: 150px;
+}
+.REQUEST_A h2{margin-bottom: 2%; color:black; }
+.REQUEST_A h2:hover { font-size: 31px;   }
+
+.form-horizontal { padding-top: 2%; border-top: 1px solid black;}
+
+ #request-form{
+      text-align: center;
+      width: 80%;
+      margin-left: 20%;
+ }
+ .col-sm-3{  padding: 0px;}
+#case-description{ width: 91%; margin-left: 2%;}
+#secure-submit {background: #003380; margin-left: 2%; border-radius: 15px; margin-right: 7%;}
+#secure-submit:hover{background: #0047b3; box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);} 
+
+#glyph { color: #003380; margin-left: 1%;}
+#glyph:hover { color: red; }
+
+
+
+
+/*-----SUMBIT A SEARCH -------*/
+
+.SUBMIT_A {
+      margin-left: 15%;
+      margin-right: 15%;   
+      margin-top: 2%;
+      min-height: 120px;
+      }
+
+
+.SUBMIT_A H2:hover { font-size: 31px;}
+.request_title { color: black; padding-bottom: 1%;  }
+#sel2 {font-size: 13px;}
+.FUFU {color:#777 ;}
+.col-sm-4 { float: left;}
+
+#request-previous-addresses, #request-references, #request-lastknow {padding-left:  28%; padding-right: 28%;  }
+
+#secure-submit-request {
+      float: right;
+      margin-right: 45%;
+      background: #003380;
+      margin-left: 2%;
+      border-radius: 15px;
+      
+      }
+ #secure-submit-request:hover{
+      background: #0047b3;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }      
+    
+    
+    
+    
+    
+/*-----Google map----*/
+
+#googleMap {
+height:400px;
+width:100%;
+margin-top: 5%;
+} 
+      
+
+/*-------- CONTACT ------*/
+#contacty {
+      margin-left: 15%;
+      margin-right: 15%;    
+      width: 70%;
+      margin-bottom: 5%;
+}
+
+.container-fluid h2 {
+      padding-left:15%;
+      padding-right: 15%;
+      color:black;
+      padding-top: 5%;
+      }
+      
+      
+.col-sm-5 { padding-left: 4%;  }
+.col-sm-7 { padding-right: 4%; }
+
+#SEND {
+    margin-right: 0px;
+    background: #003380;
+    margin-left: 2%;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 20%;
+    margin-bottom: 5%;
+}
+
+#SEND:hover{background: #0047b3; box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); } 
+
+/*----Footer------*/
+
+
+footer {
+    background: #00131a;
+    color: #f5f5f5;
+    padding: 32px;
+}
+
+footer a {color: #f5f5f5; }
+
+footer a:hover {
+    color: #0066ff;
+    text-decoration: none;
+}
+
+/*---------Responsoive ------*/
+@media (max-width: 1445px) {
+       .welcome_page { height: 890px;}
+      }
+
+
+@media (max-width: 1025px) {
+    .welcome_page { height: 820px;}
+    .container-fluid{margin-top:3%;} 
+
+    #myNavbar{padding: 0px;}
+    #logo { font-size: 15px; }
+    .navbar {height: 12%;}
+      
+    .privacy_text-first {
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .services_text-second h3 {margin-left: 19%;}
+   #itsbetter {
+    margin-left: 19%;
+    margin-bottom: 10%;
+    font-size: 17px;
+    }
+    .request_title { margin-bottom: 4%;}
+    #contacty { padding-right: 0px; width: 80%; margin-left: 10%; margin-right: 10%;}
+    #search {width: 60%;}
+    .prvni {padding-right: 13.5%;}
+    .treti {padding-right: 13.5%; }
+      #Person-Name{width:40%; }
+      #Insurance-number{width:40%; }
+      #Last-Known-Address{width:40%; }
+      #City{width:40%; }
+      #Province{width:40%; }
+      #Last-Known-Tel{width:40%; }
+      #Date-of-Last{width:40%; }
+      #reason{width:40%; }
+      #Numbers-of-Subject{width:40%; }
+      #Relatives-References{width:40%; }
+      #Other-Useful{width:50%; }
+      #Your-Name{width:50%; }
+      #Company-Name{width:50%; }
+      #Company-Address{width:50%; }
+      #Email{width:50%; }
+      #Phone{width:50%; }
+      
+}
+
+@media (max-width: 818px) {
+      .EAGLE-EYE-LOCATORS {font-size: 33px;}
+      #mark{ width:  12%;}
+      
+      .container-fluid{height: 100%; margin-top:4%;}
+      .navbar-header{height: 80%;}
+      .navbar-toggle{border: 2px solid #ffffff;}
+      .navbar-collapse.in {overflow-y: visible; }
+      .navbar li {margin-top: 1%;}
+      .about_title h2{ margin-top: 10%;}
+      .about_text-first{ margin-top:11%;}
+      .about_text-first p{ margin-bottom: 8%;}
+      .about_text-second h3 { padding-top:10%; margin-bottom: 7%;}
+      .services_text-second{padding-top: 5%;}
+      .affix{background:rgba(0, 0, 0,0.8); }
+      .services_text-first { margin-top: 15%;} 
+    .welcome_page { height: 900px;}
+    #blbost {padding-right: 2%; padding-left: 2%;}
+    #myNavbar{padding: 0px;}
+    #logo { font-size: 13px; }
+    .navbar {height: 13%; padding-top:1%;}
+    #itsbetter {
+    margin-left: 19%;
+    margin-bottom: 10%;
+    font-size: 17px;
+    }
+    .privacy_text-first { margin-top: 5%;  margin-bottom: 4%;  }
+    
+    
+    .pryvacys_text-second h3 { margin-top: 10%; }
+    #request-Name { width: 60%;}
+    #request-company{width: 60%;}
+    #request-phone{width: 60%;}
+    #request-email{width: 60%;}
+    
+      #request-name{width:60%; }
+      #Insurance-number{width:40%; }
+      #Last-Known-Address{width:40%; }
+      #request-lastaddress{width: 60%;}
+      #request-city{width:60%; }
+      #Province{width:40%; }
+      #sel2{width: 60%; padding-left: 15px; padding-right:15px; padding-bottom: 0px; padding-top:0px; }
+      #window {padding-left: 2px;font-size: 15px;}
+      #Last-Known-Tel{width:40%; }
+      #request-cell { width: 60%;}
+      #Date-of-Last{width:40%; }
+      #request-dateoflast{width: 60%;}     
+      #reason{width:40%; }
+      #request-forsearch{width: 60%;} 
+      #request-previous-addresses{width:100%; padding-left: 10%; padding-right: 10%; }
+      #request-references{width:100%;  padding-left: 10%; padding-right: 10%;}
+      #request-lastknow {width:100%;  padding-left: 10%; padding-right: 10%;}
+      #YourName{width:60%; }
+      #Company-Name{width:55%; }
+      #request-companyname{width:60%; margin-top:5%; }
+      #Company-Address{width:50%; }
+      #request-companyAddress{width:60%;  margin-top:5%; }
+      #Email{width:50%; }
+      #request-youremail{width:60%; }
+      #Phone{width:50%; }
+      #request-yourphone{width:60%; }
+      #search {margin-top:5%; }
+      #secure-submit-request{margin-right: 30%;}      
+      .container-fluid{width: 100%; padding: 0%;}           
+       #CONTACT{margin-bottom: 5%;}
+}
+
+
+@media (max-width: 768px) {
+       .welcome_page {height: 800px;}
+      #prvni{ width: 46%;}
+      #request-Name{width:50%; margin-left: 13%;}
+      #druhy{width: 50.5%;}
+      #request-company{width: 50%; margin-left: 13%;}
+      #treti{width: 50%;}
+      #request-phone{width: 50%; margin-left: 13%;}
+      #ctvrty{width: 43%;}
+      #request-email{width: 50%; margin-left: 13%;}
+      .EAGLE-EYE-LOCATORS { font-size: 25px;}
+      
+      #request-form{ margin-left: 10%; margin-right: 0px; width: 100%;}
+      .prvni { padding-right: 30%;}
+            
+      .treti {padding-right: 30%;}
+      #YN{width:40%; }
+      #YourName{width:50%; }  
+      #Company-Name{width:40%;  }
+      #request-companyname{width:50%;  }
+      #Company-Address{width:40%;  }
+      #request-companyAddress{width:50%;}
+      #Email{width:40%; }
+      #request-youremail{width:50%;  }
+      #Phone{width:40%;  }
+      #request-yourphone{ width: 50%; }
+      
+      #secure-submit-request { margin-top: 4%; margin-bottom: 4%; margin-right: 20%;}
+      
+      
+      
+      }
+
+
+
+
+@media (max-width: 767px) {  
+      .welcome_page {height: 100%;}
+      .SUBMIT_A {margin-bottom: 10%;}
+      .services_text-second { padding-top: 2%; padding-bottom: 10%;}
+      .services_text-second h3, #itsbetter { margin-right: 20%; margin-left: 20%;}
+      .REQUEST_A { margin-right: 4%; margin-left: 4%;}
+      .prvni {padding-right: 10%;}
+      .treti { padding-right: 10%;}
+       .navbar-header { width: 100%;}
+       #middle{margin-right: 7%;}
+       #request-form{ margin-left: 15%; width: 85%; padding-left: 4%; }
+     
+      #prvni{ width: 75%;}
+      #request-Name{width:50%; margin-left: 13%;}
+      #druhy{width: 75%;}
+      #request-company{width: 50%; margin-left: 13%;}
+      #treti {width: 75%;}
+      #request-phone{width: 50%; margin-left: 13%;}
+      #ctvrty{width: 75%;}
+      #request-email{width: 50%; margin-left: 13%;}
+      
+      
+      #Person-Name{width:50%; margin-right: 15%;}
+      #request-name{width:84%; }
+      #Insurance-number{width:60%; margin-right: 15%;}
+      #search{width: 84%; margin: 0px;}
+      #Last-Known-Address{width:50%; margin-right: 15%;}
+      #request-lastaddress{width: 84%;}
+      #City{width:50%; margin-right: 18%;}
+      #request-city{width:84%; }
+      #Province{width:50%; margin-right: 16%; }
+      #sel2{width: 84%; }
+      #Last-Known-Tel{width:50%;margin-right: 12%; }
+      #request-cell { width: 84%;}
+      #Date-of-Last{width:50%; margin-right: 14%; }
+      #request-dateoflast{width: 84%;}
+      #reason{width:50%; margin-right: 14%;}
+      #request-forsearch{width: 84%;} 
+           
+      #window {padding-left: 2px;font-size: 15px;}
+                           
+      
+      #YN{width:50%; margin-right: 16%;}
+      #YourName{width:84%; }  
+      #Company-Name{width:50%; margin-right: 16%; }
+      #request-companyname{width:84%;  }
+      #Company-Address{width:50%; margin-right: 16%; }
+      #request-companyAddress{width:84%; }
+      #Email{width:50%; margin-right: 16%; }
+      #request-youremail{width:84%; }
+      #Phone{width:50%; margin-right: 16%;  }
+      #request-yourphone{ width: 84%;}
+      #secure-submit-request { margin-top: 4%; margin-right: 35%;}                      
+}
+
+
+
+
+@media (max-width: 435px) {
+      .affix {width: 100%; padding-right: 8%;}
+      .navbar-header{width: 100%; margin-right: 2%;}
+      .navbar { padding: 0px;}
+      #middle { margin-right: 6%;}
+      .about_title h2 { font-size: 20px;}
+      .about_inner h3 {font-size: 15px;}
+      .services_text-first h4 { font-size: 15px;}
+      .request_title h2 { font-size: 20px;}
+     .REQUEST_A h2:hover {font-size: 20px;}
+     .SUBMIT_A H2:hover {font-size: 20px;}
+     .privacy_title h2{ font-size: 22px;}
+     .privacy_text-first h3 { font-size: 15px;}
+     
+      body {
+      position: relative;
+      font: 400 12px/1.8 Lato, sans-serif, Monospace;
+      color: #777;
+      }
+    
+
+       h3, h4 {
+       margin: 10px 0 30px 0;
+       letter-spacing: 2px; 
+       font-size: 17px;
+       color: #111;
+      }
+      .services_text-second h3, #itsbetter { margin-right: 20%; margin-left: 20%; font-size: 12px;}
+      #secure-submit-request { margin-top: 4%; margin-right: 25%;}
+  
+  
+            
+      #request-Name{width:80%; margin-left: 0%;}
+     
+      #request-company{width: 80%; margin-left: 0%;}
+    
+      #request-phone{width: 80%; margin-left: 0%;}
+     
+      #request-email{width: 80%; margin-left: 0%;}
+      
+      
+      
+      #request-name{width:100%;  padding-left: 0px;}
+      #Insurance-number{width:80%; margin-right: 15%;}
+      #search{width: 100%; margin: 0px;padding-left: 0px;}
+      
+      #request-lastaddress{width: 100%;padding-left: 0px;}
+     
+      #request-city{width:100%;padding-left: 0px; }
+      
+      #sel2{width: 100%; padding-left: 0px;}
+     
+      #request-cell { width: 100%;padding-left: 0px;}
+    
+      #request-dateoflast{width: 100%; padding-left: 0px;}
+    
+      #request-forsearch{width: 100%; padding-left: 0px;} 
+           
+      
+                           
+      
+     
+      #YourName{width:100%;padding-left: 0px; }  
+     
+      #request-companyname{width:100%;  padding-left: 0px;}
+      
+      #request-companyAddress{width:100%; padding-left: 0px;}
+ 
+      #request-youremail{width:100%; padding-left: 0px;}
+     
+      #request-yourphone{ width: 100%; padding-left: 0px;}
+     
+  
+  
+}
+
+
+@media (max-width: 360px) {
+       #Insurance-number{width:90%; margin-right: 15%;}
+       #Last-Known-Address{width:90%; margin-right: 15%;}
+       #Last-Known-Tel{width:90%;margin-right: 12%; }
+       #Date-of-Last{width:90%; }
+       #reason{width:90%; }
+       #Company-Name{width:90%; margin-right: 16%; }
+       #Company-Address{width:90%; margin-right: 16%; }
+      }
+
+
+
+
+
+
+
+/*---slide in-----*/
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+
+
+
+
